@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* Custom utilities and responsive tweaks */
+
+@keyframes spin-slow {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-spin-slow {
+    animation: spin-slow 1.1s linear infinite;
+}
+
+/* Responsive tweaks */
+@media (max-width: 640px) {
+    .repo-card {
+        padding: 12px;
+    }
+
+    .user-avatar {
+        width: 4.5rem !important;
+        height: 4.5rem !important;
+    }
+
+    .backdrop-blur-sm {
+        padding: 14px !important;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .repo-card {
+        padding: 14px;
+    }
+
+    .user-avatar {
+        width: 6.5rem !important;
+        height: 6.5rem !important;
+    }
+}
+
+@media (min-width: 1025px) {
+    .repo-card {
+        padding: 16px;
+    }
+}
