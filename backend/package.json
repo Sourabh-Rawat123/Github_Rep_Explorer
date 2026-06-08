@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "22.16.0"
+  },
   "name": "github_repo_explorer",
   "version": "1.0.0",
   "description": "This is the backend of the repo",
