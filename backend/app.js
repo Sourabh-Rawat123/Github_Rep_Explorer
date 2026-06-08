@@ -9,7 +9,9 @@ let methodOverride = require('method-override');
 
 app.use(express.json({ limit: "16kb" }));
 app.use(express.urlencoded({ extended: true, limit: "16kb" }));
-app.use(cors());
+app.use(cors({
+    origin:"https://github-rep-explorer-1.onrender.com",
+}));
 app.use(methodOverride("_method"));
 
 
