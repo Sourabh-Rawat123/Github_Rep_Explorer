@@ -95,4 +95,5 @@ Project Structure
     - Next Steps would be to Scale this project useing cloud computing and System 
     Design Principles 
     -Improving UI of sorting repo 
-    -Adding major Promming Language Used in Repos Using Chart.js
+    -Adding major programming  Language Used by the user and making its chart useing Chart.js
+    
