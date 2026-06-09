@@ -90,6 +90,7 @@ Project Structure
 	- `src/` — React source files (`App.jsx`, pages, components, API helper).
 	- `public/` — static assets.
 	- `vite.config.js`, `package.json` — frontend build/dev config.
+	-  took help of  Ai tools to  Style and Create frontend componets
 
  Next Steps 
     - Next Steps would be to Scale this project useing cloud computing and System 
